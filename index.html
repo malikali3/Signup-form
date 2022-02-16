@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="style.css" media="screen"/>
+    <title>sign-up form</title>
+</head>
+<body>
+    <div class="column1"></div>
+    <div class="column2">
+        <p class="content">This is not a real online service! You know you need something <br> <br>
+            like this un your life to help you realise your deepest dreams. <br> <br>
+            Sign up  <i>now</i> to get started.
+        <br> <br> <br>
+<!--        
+        this i tag will make text italic -->
+        You <i>know</i> you want to
+    </p>
+
+   
+        <h3>Let's do this</h3>
+    
+    
+        <div class="card">
+            
+       
+            <div class="fname">
+             <label for="firstname">FIRST NAME</label>
+             <br>
+             <input type="text" id="firstname" class="label">
+            </div>
+     
+            <div class="lname">
+             <label for="lastname"> LAST NAME</label>
+             <br>
+             <input type="text" id="lastname"  class="label">
+            </div>
+            
+            
+            <div class="email">
+             <label for="email">EMAIL</label>
+             <br>
+             <input type="text" id="email"  class="label">
+            </div>
+     
+            <div class="pnum">
+             <label for="phonenum"> PHONE NUMBER</label>
+             <br>
+             <input type="text" id="phonenum"  class="label">
+            </div>
+            
+            
+            <div class="pass">
+             <label for="password"> PASSWORD</label>
+             <br>
+             <input type="text" id="password"  class="label"
+             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+             title="Must contain at least 
+             one number and one uppercase and lowercase letter,
+              and at least 8 or more characters" required>
+            </div>
+     
+       
+            <div class="conpass">
+             <label for="confirmpassword">CONFIRM PASSWORD</label>
+             <br>
+             <input type="text" id="confirmpassword"  class="label" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+             title="Must contain at least
+              one number and one uppercase and lowercase letter, 
+             and at least 8 or more characters" required>
+            </div>
+            
+             </div>
+
+             <button type="submit" class="button">
+                 Create Account
+             </button>
+
+             <h4>Already have an account?</h4>
+             <h4 class="log">Log in</h4>
+    
+    </div>
+
+    
+        
+    
+</body>
+</html>
